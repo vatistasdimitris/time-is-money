@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🗓️ Week Plan Bot 🤖</title>
+<link rel="icon" href="image2.jpg" type="image/x-icon">
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Full black background color */
+    font-family: 'Indie Flower', cursive, Arial, sans-serif; /* Set font family */
+    color: #fff; /* Text color */
+    text-align: center; /* Center align text */
+  }
+  .container {
+    max-width: 600px; /* Set maximum width */
+    margin: 0 auto; /* Center align container */
+    padding: 20px; /* Add padding */
+  }
+  h1 {
+    font-size: 2.5em; /* Increase heading size */
+    margin-bottom: 20px; /* Add margin bottom */
+  }
+  p {
+    font-size: 1.2em; /* Increase paragraph font size */
+    line-height: 1.6; /* Increase line height */
+    margin-bottom: 20px; /* Add margin bottom */
+  }
+  ol {
+    text-align: left; /* Align list items to the left */
+  }
+  li {
+    font-size: 1.2em; /* Increase list item font size */
+    margin-bottom: 10px; /* Add margin bottom */
+  }
+  /* Emoji styling */
+  .emoji {
+    fill: #fff; /* Set emoji color to full white */
+    width: 1em; /* Set width */
+    height: 1em; /* Set height */
+    vertical-align: -0.15em; /* Adjust vertical alignment */
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>🗓️ Week Plan Bot 🤖</h1>
+    <p>Welcome to the Week Plan Bot! 🎉<br>
+    This AI assistant is designed to assist you in managing your weekly schedule efficiently. 📅</p>
+
+    <h2>How to Use 🚀</h2>
+    <ol>
+      <li><strong>Start a Conversation</strong>: Initiate a chat with the Week Plan Bot by typing a message or selecting a predefined command. <span class="emoji">💬</span></li>
+      <li><strong>Send Your Weekly Plan</strong>: Share your weekly schedule with the bot. You can input your availability, appointments, tasks, or any other relevant information for the week. <span class="emoji">📝</span></li>
+      <li><strong>Receive Insights</strong>: Once you've shared your weekly plan, the bot will analyze it to identify your open hours and provide you with insightful suggestions or recommendations. <span class="emoji">💡</span></li>
+    </ol>
+  </div>
+
+  <!-- Include the Widget Script -->
+  <script type="text/javascript">
+    (function(d, t) {
+        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        v.onload = function() {
+          window.voiceflow.chat.load({
+            verify: { projectID: '65d91991878db5277b0a4f9c' },
+            url: 'https://general-runtime.voiceflow.com',
+            versionID: 'production'
+          });
+        }
+        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+    })(document, 'script');
+  </script>
+</body>
+</html>
